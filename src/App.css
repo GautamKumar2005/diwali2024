@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+        * {
+            background-image: url("https://bestanimations.com/media/fireworks2/1589967346ba-pretty-delicate-firework-animated-gif-image.gif");
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .diwali-container {
+            background-image: url("https://bestanimations.com/media/fireworks2/1589967346ba-pretty-delicate-firework-animated-gif-image.gif");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+    
+            color: yellow;
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+
+        .main-content {
+            text-align: center;
+            padding: 20px;
+            color: yellow;
+        }
+
+        .lightsUpLeft, .lightsUpRight,
+        .diwali_diyasLeft, .diwali_diyasRight,
+        .lightsDownLeft, .lightsDownRight,
+        .diyas {
+            width: 100px;
+            height: auto;
+            margin: 10px;
+        }
+
+        h1 {
+            font-size: 2em;
+            font-weight: 900;
+            animation: spanimation 1s ease-in-out infinite;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            font-weight: 500;
+            animation: spanimation 1s ease-in-out infinite;
+            margin-bottom: 20px;
+        }
+
+        @keyframes spanimation {
+            from {
+                text-shadow: 0px 0px 50px rgb(165, 62, 22), 0px 0px 20px rgb(165, 62, 22),
+                0px 0px 30px #ffd700, 0px 0px 40px rgb(212,65,6),
+                0px 0px 50px rgb(240,75,9);
+            }
+            to {
+                text-shadow: 0px 0px 40px rgb(16, 197, 46), 0px 0px 20px gold,
+                0px 0px 30px rgb(212,65,6), 0px 0px 60px rgb(221,195,25,0.774),
+                0px 0px 50px rgb(16,175,43,0.863);
+            }
+        }
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.5em;
+                gap: 10px;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+
+            .lightsUpLeft, .lightsUpRight, .diwali_diyasLeft, .diwali_diyasRight, .lightsDownLeft, .lightsDownRight, .diyas {
+                width: 70px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.2em;
+                gap: 5px;
+            }
+
+            h2 {
+                font-size: 1em;
+            }
+
+            .lightsUpLeft, .lightsUpRight, .diwali_diyasLeft, .diwali_diyasRight, .lightsDownLeft, .lightsDownRight, .diyas {
+                width: 50px;
+            }
+        }
+        .para{
+            position: relative;
+            top:-5rem;
+            font-family: "Merriweather", serif;
+            animation: simation 1s ease-in-out infinite;
+            font-weight: 900;
+            font-style: normal;
+            font-size: 2rem;
+            
+        }
+        @media (min-width:0px){
+                .main-content{
+                  position: relative;
+                  top:0rem;
+                }
+               .para{
+                  position: relative;
+                  top: 0.7rem  !important;
+               } 
+               .mid {
+                 height:400px;
+
+            }
+            }
+        @keyframes simation {
+            from {
+                text-shadow: 0px 0px 40px rgb(16, 197, 46), 0px 0px 20px gold,
+                0px 0px 30px rgb(212,65,6), 0px 0px 60px rgb(221,195,25,0.774),
+                0px 0px 50px rgb(16,175,43,0.863) ;
+            }
+            to {
+                text-shadow: 0px 0px 50px rgb(165, 62, 22), 0px 0px 20px rgb(165, 62, 22),
+                0px 0px 30px #ffd700, 0px 0px 40px rgb(212,65,6),
+                0px 0px 50px rgb(240,75,9) ;
+            }
+        }
+        h1 span{
+            animation: amazingGlow 1s ease-in-out infinite;
+        }
+        @keyframes amazingGlow {
+    0% {
+        text-shadow: 0px 0px 10px #FF6F61,   /* Coral Red */
+                     0px 0px 20px #FFAB40,   /* Orange Amber */
+                     0px 0px 30px #FFD740,   /* Sun Yellow */
+                     0px 0px 40px #6FFFB0,   /* Mint Green */
+                     0px 0px 50px #40C4FF;   /* Light Blue */
+    }
+    25% {
+        text-shadow: 0px 0px 15px #FF4081,   /* Neon Pink */
+                     0px 0px 25px #FF6F61,   /* Coral Red */
+                     0px 0px 35px #FFD740,   /* Sun Yellow */
+                     0px 0px 45px #7C4DFF,   /* Purple */
+                     0px 0px 55px #40C4FF;   /* Light Blue */
+    }
+    50% {
+        text-shadow: 0px 0px 20px #40C4FF,   /* Light Blue */
+                     0px 0px 30px #6FFFB0,   /* Mint Green */
+                     0px 0px 40px #FFD740,   /* Sun Yellow */
+                     0px 0px 50px #FF6F61,   /* Coral Red */
+                     0px 0px 60px #FF4081;   /* Neon Pink */
+    }
+    75% {
+        text-shadow: 0px 0px 15px #FFD740,   /* Sun Yellow */
+                     0px 0px 25px #FFAB40,   /* Orange Amber */
+                     0px 0px 35px #40C4FF,   /* Light Blue */
+                     0px 0px 45px #FF6F61,   /* Coral Red */
+                     0px 0px 55px #7C4DFF;   /* Purple */
+    }
+    100% {
+        text-shadow: 0px 0px 10px #6FFFB0,   /* Mint Green */
+                     0px 0px 20px #FFD740,   /* Sun Yellow */
+                     0px 0px 30px #FF4081,   /* Neon Pink */
+                     0px 0px 40px #FFAB40,   /* Orange Amber */
+                     0px 0px 50px #40C4FF;   /* Light Blue */
+    }
+}
+audio{
+    display: none;
+}
+.mid{
+    padding: 1.6rem;
+}
+button {
+  opacity: 0; /* Fully transparent */
+  height: 100%; /* Adjust height */
+  width: 100%; /* Adjust width */
+  background-color: transparent; /* No background */
+  border: none; /* No border for invisibility */
+  border-radius: 5px; /* Slightly rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  position: absolute; /* Position the button above the main content */
+  top: 20px; /* Adjust top position */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center align using transform */
+  transition: opacity 0.3s; /* Smooth transition for opacity */
+}
+
+button:hover {
+  opacity: 0; /* Remain invisible on hover, if desired */
+}
